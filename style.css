@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin-top: 80px;
+    background-color: black;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 6px 1rem;
+    background-color: black;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+}
+
+.navbar h2 {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+.navbar ul li a {
+    border-width: 1px;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+    color: yellow;
+}
+
+.navbar ul li:last-child a {
+    margin: 0;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    color: whitesmoke;
+   
+}
+
+.profile-homepage {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+}
+
+.description-homepage {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.description-homepage h1,
+.description-homepage p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.description-homepage p,
+.about-description p,
+.port-container p {
+    color: grey;
+    font-weight: 100;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: yellow;
+}
+
+.about {
+    padding: 6rem;
+    color: whitesmoke;
+    padding-bottom: 10rem;
+}
+
+.profile-about {
+    width: 24em;
+    height: auto;
+    margin-left: 1rem;
+    border-radius: 5px;
+    float: right;
+    margin-top: 3rem;
+}
+
+.about-title {
+    margin-bottom: 1rem;
+    padding: 0%;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.about .fa-solid.fa-award {
+    font-size: 50px;
+}
+
+.about .fa-solid.fa-school {
+    font-size: 38px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 40rem;
+}
+
+.containers div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px; 
+    margin-bottom: 1rem;
+}
+
+.containers .exp,
+.containers .edu {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about-container {
+    height: 30rem;
+}
+
+.about-title h1 {
+    height: 8rem;
+}
+
+.about-description {
+    margin-top: 1rem;
+    width: 46rem;
+}
+
+.edu h1 {
+    margin-top: 0.78rem;
+}
+
+.exp {
+    padding-top: 1rem;
+}
+
+.port-box {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-evenly;
+    padding: 5rem;  
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.port-container .port-box h4 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.port-container .port-box h4 a:visited {
+    color: white;
+}
+
+.port-container .port-box h4 a:hover {
+    color: yellow;
+}
+
+.port-container {
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    width: auto;
+}
+
+.port-div {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border: solid;
+    border-width: thin;
+}
+
+.port-container h1 {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.port-img {
+    width: 20rem;
+}
+
+
+.contact{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        padding-bottom: 2rem;
+}
+
+.contact .info{
+    color: white;
+}
+
+.submit-hire{
+    margin-top: 2rem;
+
+}
+
+
+
+.contact-box{
+    padding-bottom: 2rem;
+    text-align:center;
+    color: #ffff;
+}
+
+.contact-details{
+    flex-direction: row;
+}
+
+.menu{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer{
+       
+}
